@@ -1,0 +1,21 @@
+# --table-start--
+dataClass=net.ormlighttest.database.User
+tableName=user
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=name
+indexName=user_name_idx
+# --field-end--
+# --field-start--
+fieldName=personId
+# --field-end--
+# --field-start--
+fieldName=timestamp
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
